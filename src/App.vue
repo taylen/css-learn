@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <start msg="Welcome to Flex Learn"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import start from './components/start.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    start
   }
 }
 </script>
@@ -24,5 +24,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1.3rem;
 }
 </style>
