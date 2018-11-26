@@ -10,6 +10,13 @@ import JustifyContent from './pages/justify_content.vue'
 import AlignItems from './pages/align_items.vue'
 import AlignContent from './pages/align_content.vue'
 
+import ItemOrder from './pages/item/order.vue'
+import ItemFlexGrow from './pages/item/flex_grow.vue'
+import ItemFlexShrink from './pages/item/flex_shrink.vue'
+import ItemFlexBasis from './pages/item/flex_basis.vue'
+import ItemFlex from './pages/item/flex.vue'
+import ItemAlignSelf from './pages/item/align_self.vue'
+
 Vue.use(VueRouter);
 
 const routes = [
@@ -52,6 +59,36 @@ const routes = [
         name: 'alignContent',
         path: '/alignContent',
         component: AlignContent
+    },
+    {
+        name: 'itemOrder',
+        path: '/itemOrder',
+        component: ItemOrder
+    },
+    {
+        name: 'itemFlexGrow',
+        path: '/itemFlexGrow',
+        component: ItemFlexGrow
+    },
+    {
+        name: 'itemFlexShrink',
+        path: '/itemFlexShrink',
+        component: ItemFlexShrink
+    },
+    {
+        name: 'itemFlexBasis',
+        path: '/itemFlexBasis',
+        component: ItemFlexBasis
+    },
+    {
+        name: 'itemFlex',
+        path: '/itemFlex',
+        component: ItemFlex
+    },
+    {
+        name: 'itemAlignSelf',
+        path: '/itemAlignSelf',
+        component: ItemAlignSelf
     },
 ];
 

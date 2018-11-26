@@ -20,7 +20,17 @@
             <li @click="jumpItem('alignItems')">align-items</li>
             <li @click="jumpItem('alignContent')">align-content</li>
         </ul>
-
+        <article>
+            Flex容器内Item会具有6个属性：
+        </article>
+        <ul>
+            <li @click="jumpItem('itemOrder')">order</li>
+            <li @click="jumpItem('itemFlexGrow')">flex-grow</li>
+            <li @click="jumpItem('itemFlexShrink')">flex-shrink</li>
+            <li @click="jumpItem('itemFlexBasis')">flex-basis</li>
+            <li @click="jumpItem('itemFlex')">flex</li>
+            <li @click="jumpItem('itemAlignSelf')">align-self</li>
+        </ul>
     </div>
 </template>
 
@@ -32,6 +42,13 @@ const whiteRoutes = [
     'justifyContent',
     'alignItems',
     'alignContent',
+    
+    'itemOrder',
+    'itemFlexGrow',
+    'itemFlexShrink',
+    'itemFlexBasis',
+    'itemFlex',
+    'itemAlignSelf',
 ]
 export default {
     methods: {
